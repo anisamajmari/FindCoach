@@ -43,7 +43,7 @@ export default {
       return this.selectedCoach.firstName + ' ' + this.selectedCoach.lastName;
     },
     contactLink() {
-      return this.$route.path + '/contact';
+      return `/coaches/${this.id}/contact`;
     },
     areas() {
       return this.selectedCoach.areas;
