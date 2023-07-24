@@ -10,12 +10,6 @@ const store = createStore({
     requests: requestsModule,
     auth: authModule,
   },
-
-  getters: {
-    userId(state) {
-      return state.userId;
-    },
-  },
 });
 
 export default store;
